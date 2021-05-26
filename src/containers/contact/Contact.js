@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
+import baymax from "../../assets/lottie/wavingBaymax";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -47,7 +48,7 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={email} />
+              <DisplayLottie animationData={baymax} />
             ) : (
               <img
                 alt="Man working"
